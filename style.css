@@ -1,0 +1,97 @@
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	letter-spacing: 2.2px;
+	font-size: 29px;
+	color: #000050;
+}
+
+body {
+	font-family: 'Lato', serif;
+	background-color: #F5F5F5;
+	font-size: 16px;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	font-size: 20px; 
+	color: #3CB371;
+}
+
+a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Arial', serif;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+ @media (max-width: 920px) {
+ 	.container{
+ 		width: 720px;
+ 	}
+ }
+
+ @media (max-width: 750px) {
+ 	.container{
+ 		width: 500px;
+ 	}
+ }
+
+ @media (max-width: 600px) {
+ 	.container{
+ 		width: 400px;
+ 	}
+ }
+
+@media (max-width: 480px) {
+  	.container {
+ 		width: 250px;
+ 	}
+ 	
+ }
+
+.card-white {
+	background: white;
+	padding: 40px;
+	border: 1px solid lightgrey;
+	margin: 25px auto;
+	width: 700px;
+	border-radius: 20px; 
+	box-shadow: 20px 10px 30px rgba(0,0,0,0.1);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.img-circle {
+border-radius: 49%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+} 
+
+.list-inline > li{
+	display: inline;
+	padding: 0px 10px;
+}
+
+.btn-blue { /* for creating and designing the link button */
+	border: 1px;
+    background-color: #72bcd4;
+    padding: 5px 5px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+    
